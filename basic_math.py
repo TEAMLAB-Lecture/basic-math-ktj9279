@@ -24,7 +24,7 @@ def get_greatest(number_list):
             >>> bm.get_greatest(number_list)
             99
     """
-    greatest_number = max(number_list)
+    greatest_number = None#max(number_list)
     return greatest_number
 
 
@@ -98,6 +98,6 @@ def get_median(number_list):
         median = (number_list[len_numbers // 2 - 1] + number_list[len_numbers // 2]) / 2
     # 숫자 개수가 홀수일 경우
     else:
-        median = number_list[len_numbers // 2 - 1]
+        median = number_list[len_numbers // 2]
 
     return median
